@@ -1,0 +1,12 @@
+.faq-bachi{
+	background-image: url(../public/assets/faqbachi.png);
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+
+@media screen and (min-device-width: 350px) and (max-device-width: 1000px) { 
+	.faq-bachi{
+		background-image:url() !important;
+	}
+
+}

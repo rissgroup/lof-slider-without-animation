@@ -1,0 +1,73 @@
+.TermAndConditionDiv {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.TermAndConditionDiv p {
+  font-size: 0.87rem;
+  line-height: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.TermAndConditionDiv li {
+  font-size: 0.9rem;
+  line-height: 2.6rem;
+}
+
+.rowPadding {
+  padding: 0 6%;
+}
+
+.PinkColor {
+  color: #d8aaf8;
+}
+.fweight {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.firstH1 {
+  font-family: "AllRound1";
+  font-style: normal;
+  font-size: 3rem;
+}
+.firstH2 {
+  font-family: "AllRound1";
+  font-style: normal;
+  font-size: 1.8rem;
+}
+.firsth4 {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .firsth4 {
+    font-weight: 700;
+    font-size: 0.7rem;
+  }
+}
+
+.firsth4 h6 {
+  font-size: 1.1rem;
+}
+
+.TermAndConditionDiv ul {
+  list-style: none;
+}
+.TermAndConditionDiv ul li::before {
+  content: "\2022" !important;
+  color: #d8aaf8 !important;
+  font-weight: bold !important;
+  font-size: 1.8rem !important;
+  line-height: normal !important;
+  display: inline-block !important;
+  width: 1em !important;
+}
+
+.termsScroll {
+  height: 60vh !important;
+  overflow: hidden;
+  overflow-y: scroll;
+}

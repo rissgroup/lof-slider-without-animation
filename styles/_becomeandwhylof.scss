@@ -1,0 +1,53 @@
+/* Alert Csss Start  */
+.swal-overlay--show-modal .swal-modal{
+	background: linear-gradient(154.21deg, rgba(81, 45, 168, 0.1) 0.8%, rgba(103, 58, 183, 0.1) 100.66%); ;
+    backdrop-filter: blur(100px);
+   border-radius: 20px;
+   
+}
+.swal-title{
+	color: white;
+	font-family: allround;
+}
+.swal-text{
+	color: white;
+	font-family: 'Hind Vadodara', sans-serif;
+}
+.swal-button{
+	color: white;
+	background-color: #d8aaf8;
+	font-family: 'Hind Vadodara', sans-serif;
+}
+.swal-button:not([disabled]):hover{
+	background-color: #d8aaf8;
+}
+/* Alert Csss End  */
+
+
+
+@media only screen and (max-width: 767px) {
+	.scrollwhylof {
+		height: 70vh !important;
+		overflow: hidden;
+		overflow-y: scroll;
+	  }
+	  .scroll-bar-hide{
+		-ms-overflow-style: none; /* for Internet Explorer, Edge */
+		scrollbar-width: none; 
+	  }
+	  .scroll-bar-hide::-webkit-scrollbar {
+		display: none; /* for Chrome, Safari, and Opera */
+	  }
+	  .card-bg p{
+		font-size: 12px;
+	  }
+	  .icons{
+		min-width: 36px !important;
+	}
+  }
+
+  @media only screen and (max-width: 380px) {
+	  .bec-img{
+		  padding-top: 40px;
+	  }
+  }

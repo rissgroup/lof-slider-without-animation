@@ -1,0 +1,63 @@
+.for-page-bg {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.RiskPolicyDiv p {
+  font-size: 0.9rem;
+  line-height: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+
+  color: white;
+}
+.RiskPolicyDiv li {
+  font-size: 0.9rem;
+}
+.RiskPolicyDiv .rowPadding {
+  padding: 0 6%;
+  /* height: 100vh; */
+}
+.RiskPolicyDiv .PinkColor {
+  color: #d8aaf8;
+}
+.RiskPolicyDiv .fweight {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.RiskPolicyDiv .firstH1 {
+  font-family: "AllRound1";
+  font-style: normal;
+  font-size: 3rem;
+}
+.RiskPolicyDiv .firstH2 {
+  font-family: "AllRound1";
+  font-style: normal;
+  font-size: 1.8rem;
+}
+.RiskPolicyDiv ul {
+  list-style: none;
+}
+.RiskPolicyDiv ul li::before {
+  content: "\2022" !important;
+  color: #d8aaf8 !important;
+  font-weight: bold !important;
+  font-size: 1.8rem !important;
+  line-height: normal !important;
+  display: inline-block !important;
+  width: 1em !important;
+}
+.RiskPolicyDiv .termsScroll {
+  height: 60vh !important;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.scroll-bar-hide {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none;
+}
+.scroll-bar-hide::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}

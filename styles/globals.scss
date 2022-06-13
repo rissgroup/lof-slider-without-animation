@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+html{
+	scroll-behavior: smooth !important;
+	scroll-behavior: auto  smooth initial inherit;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #000000;
+  color: white;
+  animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+.mySwiper{
+	animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@font-face {
+  font-family: allround;
+  src: url(../fonts/All-Round-Gothic-Bold.ttf);
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+p {
+  font-family: "Hind Vadodara", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.pop {
+  font-family: "Poppins", sans-serif;
+}
+.monofont {
+  font-family: allround;
+}
+.hind {
+  font-family: "Hind Vadodara", sans-serif;
+}
+.pink-color {
+  color: #d8aaf8;
+}
+.card-bg {
+  background: linear-gradient(
+    154.21deg,
+    rgba(81, 45, 168, 0.1) 0.8%,
+    rgba(103, 58, 183, 0.1) 100.66%
+  );
+  backdrop-filter: blur(100px);
+  border-radius: 20px;
+}
+@media only screen and (max-width: 767px) {
+  .container-fluid {
+    padding: 0px 2rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .container-fluid {
+    padding: 0px 3rem;
+  }
+}
+.main-sloider{
+	background-image: url(../public/assets/smoke.gif);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+
+}
+
+/* *************************Hero-sec media-qurries  css start ************** */
+@media only screen and (max-width: 380px) {
+	.mbl-resp-hero{
+		padding-top: 80px;
+	}
+}
+/* *************************Hero-sec media-qurries  css End ************** */
+
+
+@import "./navbars";
+@import "./becomeandwhylof";
+@import "./lofplatform";
+@import "./faq";
+@import "./footers";
+
+
+@import "./termpage";
+@import "./policypage";
+@import "./privacypage";
