@@ -22,72 +22,15 @@ export default function Bec2() {
         <div className="flex flex-col md:flex-row text-white">
           <div className=" basis-6/12  my-auto mt-16 md:mt-52 lg:mt-64 2xl:mt-96">
             <div className="flex">
-              <AnimatedText
-                type="words" // animate words or chars
-                animation={{
-                  x: "200px",
-                  y: "-20px",
-                  scale: 1.1,
-                  ease: "ease-in-out",
-                }}
-                animationType="float"
-                interval={0.06}
-                duration={0.8}
-                tag="p"
-                className="animated-paragraph text-4xl leading-10  md:text-2xl   lg:text-5xl 2xl:text-6xl monofont pb-2 md:pb-5 lg:pl-20"
-                includeWhiteSpaces
-                threshold={0.1}
-                rootMargin="20%"
-              >
-                Become a
-              </AnimatedText>
-              <AnimatedText
-                type="words" // animate words or chars
-                animation={{
-                  x: "200px",
-                  y: "-20px",
-                  scale: 1.1,
-                  ease: "ease-in-out",
-                }}
-                animationType="float"
-                interval={0.06}
-                duration={0.8}
-                tag="p"
-                className="animated-paragraph text-4xl leading-10  md:text-3xl lg:text-5xl 2xl:text-6xl monofont pb-2 md:pb-5 pink-color md:pl-5"
-                includeWhiteSpaces
-                threshold={0.1}
-                rootMargin="20%"
-              >
-                creator
-              </AnimatedText>
+             
+             <p className="animated-paragraph text-4xl leading-10  md:text-2xl   lg:text-5xl 2xl:text-6xl monofont pb-2 md:pb-5 lg:pl-20">Become a</p>
+              <p className="animated-paragraph text-4xl leading-10  md:text-3xl lg:text-5xl 2xl:text-6xl monofont pb-2 md:pb-5 pink-color md:pl-5">creator</p>
             </div>
-            <AnimatedText
-              type="words"
-              interval={0.04}
-              duration={0.8}
-              animation={{
-                y: "100px",
-                ease: "ease",
-                scale: 1.06,
-              }}
-              className="md:leading-8 text-[18px] lg:pl-20"
-            >
-              Create an account and we’ll get you started in no time!
-            </AnimatedText>
-            <AnimatedText
-              type="words"
-              interval={0.04}
-              duration={0.8}
-              animation={{
-                y: "100px",
-                ease: "ease",
-                scale: 1.06,
-              }}
-              className="md:leading-8 text-[17px] tracking-tight lg:pl-20"
-            >
-              More features, profit and freedom - with dedicated support in
-              everything.
-            </AnimatedText>
+          
+            <p className="md:leading-8 text-[18px] lg:pl-20">Create an account and we’ll get you started in no time!</p>
+           
+            <p className="md:leading-8 text-[17px] tracking-tight lg:pl-20">More features, profit and freedom - with dedicated support in
+              everything.</p>
 
             <button
               onClick={openModal}
