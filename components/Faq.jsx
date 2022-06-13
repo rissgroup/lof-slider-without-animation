@@ -10,78 +10,18 @@ export default function Faq() {
           <div className="flex flex-col lg:flex-row  text-white pt-20  2xl:pt-20 h-screen">
             <div className=" basis-0 md:basis-0 lg:basis-6/12 ml-0 md:ml-40 lg:ml-0 2xl:ml-10 faq-bachi ">
               <div>
-                <AnimatedText
-                  type="words"
-                  interval={0.04}
-                  duration={0.8}
-                  animation={{
-                    x: "-1px",
-                    y: "-100px",
-                    ease: "ease",
-                    scale: 1.06,
-                  }}
-                  className="pop text-5xl flex align-middle  text-center lg:mt-52 2xl:mt-60 md:text-center xl:text-[100px] 2xl:text-[160px] font-black  stroke-white stroke-2 lg:ml-8 md:ml-36"
-                >
-                  FAQ
-                </AnimatedText>
+                
+                <p className="pop text-5xl flex align-middle  text-center lg:mt-52 2xl:mt-60 md:text-center xl:text-[100px] 2xl:text-[160px] font-black  stroke-white stroke-2 lg:ml-8 md:ml-36">FAQ</p>
 
                 <div className="flex">
-                  <AnimatedText
-                    type="words"
-                    interval={0.04}
-                    duration={0.8}
-                    animation={{
-                      x: "-100px",
-                      y: "100px",
-                      ease: "ease",
-                      scale: 1.06,
-                    }}
-                    className="monofont pb-6 text-xl md:ml-10 mt-2 md:text-3xl 2xl:text-5xl font-bold flex  align-middle md:justify-start"
-                  >
-                    For
-                  </AnimatedText>
-                  <AnimatedText
-                    type="words"
-                    interval={0.04}
-                    duration={0.8}
-                    animation={{
-                      x: "-100px",
-                      y: "100px",
-                      ease: "ease",
-                      scale: 1.06,
-                    }}
-                    className="monofont pb-6 text-xl md:ml-2 mt-2 md:text-3xl 2xl:text-5xl font-bold flex  align-middle md:justify-start pink-color "
-                  >
-                    creators
-                  </AnimatedText>
-                  <AnimatedText
-                    type="words"
-                    interval={0.04}
-                    duration={0.8}
-                    animation={{
-                      x: "-100px",
-                      y: "100px",
-                      ease: "ease",
-                      scale: 1.06,
-                    }}
-                    className="monofont pb-6 text-xl md:ml-2 mt-2 md:text-3xl 2xl:text-5xl font-bold flex  align-middle md:justify-start pink-color "
-                  >
-                    and
-                  </AnimatedText>
-                  <AnimatedText
-                    type="words"
-                    interval={0.04}
-                    duration={0.8}
-                    animation={{
-                      x: "-100px",
-                      y: "100px",
-                      ease: "ease",
-                      scale: 1.06,
-                    }}
-                    className="monofont pb-6 text-xl md:ml-2 mt-2 md:text-3xl 2xl:text-5xl font-bold flex  align-middle md:justify-start pink-color "
-                  >
-                    fans
-                  </AnimatedText>
+                
+                  <p className="monofont pb-6 text-xl md:ml-10 mt-2 md:text-3xl 2xl:text-5xl font-bold flex  align-middle md:justify-start"> For</p>
+                  
+                  <p  className="monofont pb-6 text-xl md:ml-2 mt-2 md:text-3xl 2xl:text-5xl font-bold flex  align-middle md:justify-start pink-color ">creators</p>
+                 
+                  <p className="monofont pb-6 text-xl md:ml-2 mt-2 md:text-3xl 2xl:text-5xl font-bold flex  align-middle md:justify-start pink-color ">and</p>
+                
+                  <p className="monofont pb-6 text-xl md:ml-2 mt-2 md:text-3xl 2xl:text-5xl font-bold flex  align-middle md:justify-start pink-color ">fans</p>
                 </div>
               </div>
             </div>
